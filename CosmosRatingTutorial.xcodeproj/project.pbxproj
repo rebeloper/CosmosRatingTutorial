@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		C92FFF8A2162866E00B3E93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92FFF892162866E00B3E93A /* AppDelegate.swift */; };
 		C92FFF8C2162866E00B3E93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92FFF8B2162866E00B3E93A /* ViewController.swift */; };
-		C92FFF8F2162866E00B3E93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92FFF8D2162866E00B3E93A /* Main.storyboard */; };
 		C92FFF912162866E00B3E93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92FFF902162866E00B3E93A /* Assets.xcassets */; };
 		C92FFF942162866E00B3E93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92FFF922162866E00B3E93A /* LaunchScreen.storyboard */; };
+		F8670BC01BE766CE3555EF04 /* Pods_CosmosRatingTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5CD2271ED30032BC2134C4 /* Pods_CosmosRatingTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5CD2271ED30032BC2134C4 /* Pods_CosmosRatingTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9E99FF70F520F2A7E7617F /* Pods-CosmosRatingTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		8872A80491542BC739D897DE /* Pods-CosmosRatingTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		C92FFF862162866E00B3E93A /* CosmosRatingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmosRatingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92FFF892162866E00B3E93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92FFF8B2162866E00B3E93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C92FFF8E2162866E00B3E93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C92FFF902162866E00B3E93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92FFF932162866E00B3E93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92FFF952162866E00B3E93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,17 +31,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8670BC01BE766CE3555EF04 /* Pods_CosmosRatingTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A8053A11C8E7855B65E06AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9E99FF70F520F2A7E7617F /* Pods-CosmosRatingTutorial.debug.xcconfig */,
+				8872A80491542BC739D897DE /* Pods-CosmosRatingTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C92FFF7D2162866E00B3E93A = {
 			isa = PBXGroup;
 			children = (
 				C92FFF882162866E00B3E93A /* CosmosRatingTutorial */,
 				C92FFF872162866E00B3E93A /* Products */,
+				7A8053A11C8E7855B65E06AD /* Pods */,
+				E37AD666774587BD7B334E2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +70,19 @@
 			children = (
 				C92FFF892162866E00B3E93A /* AppDelegate.swift */,
 				C92FFF8B2162866E00B3E93A /* ViewController.swift */,
-				C92FFF8D2162866E00B3E93A /* Main.storyboard */,
 				C92FFF902162866E00B3E93A /* Assets.xcassets */,
 				C92FFF922162866E00B3E93A /* LaunchScreen.storyboard */,
 				C92FFF952162866E00B3E93A /* Info.plist */,
 			);
 			path = CosmosRatingTutorial;
+			sourceTree = "<group>";
+		};
+		E37AD666774587BD7B334E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CD2271ED30032BC2134C4 /* Pods_CosmosRatingTutorial.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92FFF982162866E00B3E93A /* Build configuration list for PBXNativeTarget "CosmosRatingTutorial" */;
 			buildPhases = (
+				C65CFEC6655A0BDF77E1DB87 /* [CP] Check Pods Manifest.lock */,
 				C92FFF822162866E00B3E93A /* Sources */,
 				C92FFF832162866E00B3E93A /* Frameworks */,
 				C92FFF842162866E00B3E93A /* Resources */,
+				DC29A6568DC8D2A4EE91873C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +147,51 @@
 			files = (
 				C92FFF942162866E00B3E93A /* LaunchScreen.storyboard in Resources */,
 				C92FFF912162866E00B3E93A /* Assets.xcassets in Resources */,
-				C92FFF8F2162866E00B3E93A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C65CFEC6655A0BDF77E1DB87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC29A6568DC8D2A4EE91873C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C92FFF822162866E00B3E93A /* Sources */ = {
@@ -143,14 +206,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C92FFF8D2162866E00B3E93A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C92FFF8E2162866E00B3E93A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C92FFF922162866E00B3E93A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,15 +335,13 @@
 		};
 		C92FFF992162866E00B3E93A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9E99FF70F520F2A7E7617F /* Pods-CosmosRatingTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R252PR8AVU;
 				INFOPLIST_FILE = CosmosRatingTutorial/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rebeloper.CosmosRatingTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +351,13 @@
 		};
 		C92FFF9A2162866E00B3E93A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8872A80491542BC739D897DE /* Pods-CosmosRatingTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R252PR8AVU;
 				INFOPLIST_FILE = CosmosRatingTutorial/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rebeloper.CosmosRatingTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
